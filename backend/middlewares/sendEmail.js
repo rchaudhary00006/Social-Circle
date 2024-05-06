@@ -9,7 +9,6 @@ exports.sendEmail = async (options) => {
       pass: "176f95bc8fe4ec"
     }
   });
-
   const mailOptions = {
     from: process.env.SMPT_MAIL,
     to: options.email,
